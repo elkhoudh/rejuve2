@@ -14,3 +14,16 @@ $(document).ready(function() {
     }
   });
 });
+
+$(document).ready(function() {
+  setTimeout(function() {
+    var iframe = document.getElementById("frame");
+    var iframeWindow = iframe.contentWindow.document;
+    var text = $(iframeWindow)
+      .find(".powered-by-text")
+      .text();
+    console.log(text);
+
+    //PRINTS "INNER MOST"
+  }, 1000);
+});

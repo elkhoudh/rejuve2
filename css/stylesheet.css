@@ -2362,6 +2362,6 @@ footer .copyright .divider {
 
 /*# sourceMappingURL=stylesheet.css.map */
 
-.powered-by a {
-  display: none !important;
+.powered-by-text::before {
+  content: "HELLLOOOOOOO";
 }

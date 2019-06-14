@@ -209,7 +209,7 @@ loadCss = function() {
 
   var appendCssFiles = function() {
     ////console.log('in appendCssFiles');
-    jQuery("#bookafy-scheduling").css("visibility", "visible");
+    jQuery("#bookafy-scheduling").css("visibility", "none");
     jQuery("head").append(cssFilePath);
     setTimeout(function() {
       loadbookafyFancyBox();
